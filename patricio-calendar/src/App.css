@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.calendarContainer {
+  min-height: 900px;
+}
+
+.calendarDay {
+  height: 140px;
+  width: 175px;
+  border-width: 1px;
+  border-color: #d6d7da;
+  border-style: solid;
+  float: left;
+}
+
+.button {
+  margin-left: 10px
+}
+
+.calendarNumber {
+  color: red;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 95%;
+}
+
+.calendarDay a:hover {
+  cursor: pointer;
+}
+
+.taskDescription {
+  margin-left: 10px;
+  margin-right: 10px;
+}
